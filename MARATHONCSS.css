@@ -1,0 +1,30 @@
+h1{
+    color: red;
+}
+
+
+
+body{
+
+    background-image: url(images/marathonimg.jpg);
+}
+
+h2{
+
+    color: rgb(255,0,0);
+}
+
+label{
+
+    color: darkblue;
+}
+
+span{
+
+    color: blue;
+}
+
+.tag{
+
+    background-color: black;
+}

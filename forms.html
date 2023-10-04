@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+
+    <form action="https://www.google.com/search">
+        <div>
+            <label for="username">please enter username</label>
+            <input type="text" placeholder="username" id="username" name="q" required minlength="5" maxlength="12">
+
+
+        </div>
+        <div>
+            <label for="password">please enter password</label>
+            <input type="password" placeholder="password" id="password" name="q" required>
+        </div>
+        <div>
+            <label for="color">please enter color</label>
+            <input type="color" placeholder="color" id="color" name="q">
+        </div>
+        <div>
+            <label for="date of birth">please enter date of birth</label>
+            <input type="date" placeholder="date of birth" id="date of birth" name="q">
+        </div>
+
+
+
+        <p>
+            <label for="selet_pets">please select an option</label>
+
+            <select name="q" id="selet_pets">
+
+                <option value="">...please select...</option>
+                <option value="dog">dog</option>
+                <option value="cat">cat</option>
+                <option value="birds">bird</option>
+
+            </select>
+
+        </p>
+
+        <button>login</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+
+        <label for="U">pg</label>
+        <input type="checkbox" name="q" id="U" value="msc web development">
+
+        <label for="p">Ug</label>
+        <input type="checkbox" name="q" id="p" value="bcs web development">
+
+        <button>search</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+
+        <label for="m">lamborgini</label>
+        <input type="radio" id="m" name="q" value="lamborgini">
+
+        <label for="n">ferrari</label>
+        <input type="radio" id="n" name="q" value="ferrari">
+
+        <button>submit</button>
+    </form>
+
+    <p>
+        <label for="testarea">any special request</label>
+
+        <textarea id="testarea" rows="4" aria-colcount="20">please type here</textarea>
+
+
+    </p>
+</body>
+
+</html>
